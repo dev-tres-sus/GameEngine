@@ -1,0 +1,22 @@
+# Build
+build/
+out/
+cmake-build-*/
+
+# CPM cache (si mis dans le repo)
+.cpm-cache/
+
+# clangd / tooling
+.cache/
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Saves locales du jeu en dev
+saves/
+*.tmp
