@@ -15,3 +15,5 @@ include(cmake/Dependencies.cmake)
 
 add_subdirectory(engine)
 add_subdirectory(game)
+enable_testing()
+add_subdirectory(tests)
